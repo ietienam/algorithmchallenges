@@ -27,5 +27,29 @@ function isGreaterThan10(num) {
 }
 
 /**
- * 
+ * isLessThan30
+ *
+ *
+Write a function called "isLessThan30". Given a number, "isLessThan30" returns whether the given number is less than 30.
+
+var output = isLessThan30(9);
+console.log(output); // --> true
  */
+function isLessThan30(num) {
+  // your code here
+  return num < 30 ? true : false;
+}
+
+/**
+ * equalsTen
+ *
+ *
+Write a function called "equalsTen". Given a number, "equalsTen" returns whether or not the given number is 10.
+
+var output = equalsTen(9);
+console.log(output); // --> false
+ */
+function equalsTen(num) {
+  // your code here
+  return num === 10 ? true : false;
+}
