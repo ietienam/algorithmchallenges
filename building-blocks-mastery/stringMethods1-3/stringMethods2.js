@@ -11,6 +11,5 @@ console.log(output); // --> 6
  */
 function computeAverageLengthOfWords(word1, word2) {
   // your code here
-  let averageLength = (word1.length + word2.length) / 2;
-  return averageLength;
+  return (word1.length + word2.length) / 2;
 }
